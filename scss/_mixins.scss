@@ -1,0 +1,7 @@
+$breakpoints: ('tablet':700px);
+
+@mixin breakpoint-up($sz) {
+    @media screen and (min-width: map-get($map: $breakpoints, $key: $sz)) {
+        @content
+    }
+}

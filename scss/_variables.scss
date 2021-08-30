@@ -1,0 +1,16 @@
+//fonts
+$kumbh: 'Kumbh Sans', sans-serif;
+$light: 400;
+$heavy: 700;
+//colors
+$dark_cyan: hsl(185, 75%, 39%);
+$vdark_blue: hsl(229, 23%, 23%);
+$dark_gray_blue: hsl(227, 10%, 46%);
+$dark_gray: hsl(0, 0%, 59%);
+$white: #fff;
+//misc
+$defaultSize: rem(18);
+//functions
+@function rem($sz){
+    @return $sz/16+rem;
+}
